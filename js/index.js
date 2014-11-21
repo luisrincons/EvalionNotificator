@@ -49,7 +49,7 @@ var app = {
         if (device.platform == 'android' || device.platform == 'Android') {
             alert("Register called");
             //tu Project ID aca!!
-            pushNotification.register(this.successHandler, this.errorHandler,{"992099932035":"evalion-notification-771","ecb":"app.onNotificationGCM"});
+            pushNotification.register(this.successHandler, this.errorHandler,{"senderID":"992099932035","ecb":"app.onNotificationGCM"});
         }
         else {
             alert("Register called");
