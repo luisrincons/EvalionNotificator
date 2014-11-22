@@ -44,9 +44,10 @@ var app = {
             case 'registered':
                 if ( e.regid.length > 0 )
                 {
+                    alert("ID:" + document.getElementById('regId').value);
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
-                 //Cuando se registre le pasamos el regid al input 
+                    //Cuando se registre le pasamos el regid al input 
                     document.getElementById('regId').value = e.regid; 
                 }
                 break;
