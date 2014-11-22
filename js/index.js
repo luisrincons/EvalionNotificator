@@ -46,6 +46,8 @@ var app = {
                 {
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
+                 //Cuando se registre le pasamos el regid al input 
+                    document.getElementById('regId').value = e.regid; 
                 }
                 break;
 
